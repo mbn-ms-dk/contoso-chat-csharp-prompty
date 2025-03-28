@@ -1,0 +1,8 @@
+curl --request POST \
+--url https://skc-m66guq6nw2bfu-ca.ambitiouswave-1963a8ca.eastus2.azurecontainerapps.io/ContosoChat \
+--header 'Content-Type: application/json' \
+--data '
+{
+    "question":"Tell me about your jackets?",
+    "customerId":"3"
+}' 

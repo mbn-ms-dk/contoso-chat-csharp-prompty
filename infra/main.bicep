@@ -121,7 +121,7 @@ module openAi 'core/ai/cognitiveservices.bicep' = {
         name: openAiDeploymentName
         model: {
           format: 'OpenAI'
-          name: 'gpt-35-turbo'
+          name: 'gpt-4'
           version: '0613'
         }
         sku: {
